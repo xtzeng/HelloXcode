@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6E6982E1B822BEC003FE27B /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E6982D1B822BEC003FE27B /* Test.m */; };
+		A6E698321B822E39003FE27B /* TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E698311B822E39003FE27B /* TestCase.m */; };
 		A6F5662C1B7E339B000EBCB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5662B1B7E339B000EBCB3 /* main.m */; };
 		A6F5662F1B7E339B000EBCB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5662E1B7E339B000EBCB3 /* AppDelegate.m */; };
 		A6F566321B7E339B000EBCB3 /* HelloXcode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6F566301B7E339B000EBCB3 /* HelloXcode.xcdatamodeld */; };
@@ -29,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6E6982C1B822BEC003FE27B /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		A6E6982D1B822BEC003FE27B /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		A6E698311B822E39003FE27B /* TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCase.m; sourceTree = "<group>"; };
 		A6F566261B7E339B000EBCB3 /* HelloXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F5662A1B7E339B000EBCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6F5662B1B7E339B000EBCB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -110,6 +115,7 @@
 			children = (
 				A6F566481B7E339B000EBCB3 /* HelloXcodeTests.m */,
 				A6F566461B7E339B000EBCB3 /* Supporting Files */,
+				A6E698311B822E39003FE27B /* TestCase.m */,
 			);
 			path = HelloXcodeTests;
 			sourceTree = "<group>";
@@ -131,6 +137,8 @@
 				A6F5662D1B7E339B000EBCB3 /* AppDelegate.h */,
 				A6F566531B7E3598000EBCB3 /* Circle.h */,
 				A6F566541B7E3598000EBCB3 /* Circle.m */,
+				A6E6982C1B822BEC003FE27B /* Test.h */,
+				A6E6982D1B822BEC003FE27B /* Test.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -238,6 +246,7 @@
 				A6F5662F1B7E339B000EBCB3 /* AppDelegate.m in Sources */,
 				A6F5662C1B7E339B000EBCB3 /* main.m in Sources */,
 				A6F566551B7E3598000EBCB3 /* Circle.m in Sources */,
+				A6E6982E1B822BEC003FE27B /* Test.m in Sources */,
 				A6F566351B7E339B000EBCB3 /* ViewController.m in Sources */,
 				A6F566321B7E339B000EBCB3 /* HelloXcode.xcdatamodeld in Sources */,
 			);
@@ -248,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F566491B7E339B000EBCB3 /* HelloXcodeTests.m in Sources */,
+				A6E698321B822E39003FE27B /* TestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +444,7 @@
 				A6F5664E1B7E339B000EBCB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6F5664F1B7E339B000EBCB3 /* Build configuration list for PBXNativeTarget "HelloXcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +453,7 @@
 				A6F566511B7E339B000EBCB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
