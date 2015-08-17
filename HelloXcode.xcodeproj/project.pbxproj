@@ -15,6 +15,7 @@
 		A6F5663A1B7E339B000EBCB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F566391B7E339B000EBCB3 /* Images.xcassets */; };
 		A6F5663D1B7E339B000EBCB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F5663B1B7E339B000EBCB3 /* LaunchScreen.xib */; };
 		A6F566491B7E339B000EBCB3 /* HelloXcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F566481B7E339B000EBCB3 /* HelloXcodeTests.m */; };
+		A6F566551B7E3598000EBCB3 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F566541B7E3598000EBCB3 /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		A6F566421B7E339B000EBCB3 /* HelloXcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloXcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F566471B7E339B000EBCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6F566481B7E339B000EBCB3 /* HelloXcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloXcodeTests.m; sourceTree = "<group>"; };
+		A6F566531B7E3598000EBCB3 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		A6F566541B7E3598000EBCB3 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +86,7 @@
 		A6F566281B7E339B000EBCB3 /* HelloXcode */ = {
 			isa = PBXGroup;
 			children = (
-				A6F5662D1B7E339B000EBCB3 /* AppDelegate.h */,
-				A6F5662E1B7E339B000EBCB3 /* AppDelegate.m */,
-				A6F566331B7E339B000EBCB3 /* ViewController.h */,
-				A6F566341B7E339B000EBCB3 /* ViewController.m */,
+				A6F566521B7E355A000EBCB3 /* Source */,
 				A6F566361B7E339B000EBCB3 /* Main.storyboard */,
 				A6F566391B7E339B000EBCB3 /* Images.xcassets */,
 				A6F5663B1B7E339B000EBCB3 /* LaunchScreen.xib */,
@@ -120,6 +120,19 @@
 				A6F566471B7E339B000EBCB3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6F566521B7E355A000EBCB3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A6F566341B7E339B000EBCB3 /* ViewController.m */,
+				A6F566331B7E339B000EBCB3 /* ViewController.h */,
+				A6F5662E1B7E339B000EBCB3 /* AppDelegate.m */,
+				A6F5662D1B7E339B000EBCB3 /* AppDelegate.h */,
+				A6F566531B7E3598000EBCB3 /* Circle.h */,
+				A6F566541B7E3598000EBCB3 /* Circle.m */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +237,7 @@
 			files = (
 				A6F5662F1B7E339B000EBCB3 /* AppDelegate.m in Sources */,
 				A6F5662C1B7E339B000EBCB3 /* main.m in Sources */,
+				A6F566551B7E3598000EBCB3 /* Circle.m in Sources */,
 				A6F566351B7E339B000EBCB3 /* ViewController.m in Sources */,
 				A6F566321B7E339B000EBCB3 /* HelloXcode.xcdatamodeld in Sources */,
 			);
