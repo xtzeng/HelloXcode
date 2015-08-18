@@ -9,8 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
+@class DemoViewController;  
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+{
+    //创建DemoViewController类的对象
+    DemoViewController* _iDemoViewController;
+}
+
+@property (nonatomic,retain)DemoViewController* iDemoViewController;
 @property (strong, nonatomic) UIWindow *window;
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;

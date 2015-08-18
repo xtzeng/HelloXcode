@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DemoViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -14,9 +16,34 @@
 
 @implementation AppDelegate
 
+//备份变量名   通俗理解：作用就是让编写者学会运用self
+@synthesize window = _window;
+@synthesize iDemoViewController = _iDemoViewController;
+
+
+- (void)dealloc
+{
+    self.iDemoViewController = nil;
+    [_window release];
+    [super dealloc];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+        self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+        // Override point for customization after application launch.
+        self.window.backgroundColor = [UIColor whiteColor];
+        
+        
+        //创建出一个临时的Demo
+        DemoViewController *demo = [[DemoViewController alloc]init];
+        
+        self.iDemoViewController = demo;
+        [demo release];//释放临时Demo
+        //添加到window中
+        [self.window addSubview:self.iDemoViewController.view];
+        [self.window makeKeyAndVisible];
     return YES;
 }
 

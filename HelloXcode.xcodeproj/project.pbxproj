@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A6E6982E1B822BEC003FE27B /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E6982D1B822BEC003FE27B /* Test.m */; };
 		A6E698321B822E39003FE27B /* TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E698311B822E39003FE27B /* TestCase.m */; };
+		A6E698381B837AC3003FE27B /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E698371B837AC3003FE27B /* DemoViewController.m */; };
+		A6E6983B1B837B92003FE27B /* UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E6983A1B837B92003FE27B /* UIViewController.m */; };
 		A6F5662C1B7E339B000EBCB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5662B1B7E339B000EBCB3 /* main.m */; };
 		A6F5662F1B7E339B000EBCB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5662E1B7E339B000EBCB3 /* AppDelegate.m */; };
 		A6F566321B7E339B000EBCB3 /* HelloXcode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6F566301B7E339B000EBCB3 /* HelloXcode.xcdatamodeld */; };
@@ -34,6 +36,10 @@
 		A6E6982C1B822BEC003FE27B /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		A6E6982D1B822BEC003FE27B /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		A6E698311B822E39003FE27B /* TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCase.m; sourceTree = "<group>"; };
+		A6E698361B837AC3003FE27B /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		A6E698371B837AC3003FE27B /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		A6E698391B837B92003FE27B /* UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController.h; sourceTree = "<group>"; };
+		A6E6983A1B837B92003FE27B /* UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewController.m; sourceTree = "<group>"; };
 		A6F566261B7E339B000EBCB3 /* HelloXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F5662A1B7E339B000EBCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6F5662B1B7E339B000EBCB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +76,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6E698331B8366DB003FE27B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A6E698341B8372E0003FE27B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A6E698351B8372EB003FE27B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A6F5661D1B7E339B000EBCB3 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +118,9 @@
 		A6F566281B7E339B000EBCB3 /* HelloXcode */ = {
 			isa = PBXGroup;
 			children = (
+				A6E698351B8372EB003FE27B /* Model */,
+				A6E698341B8372E0003FE27B /* View */,
+				A6E698331B8366DB003FE27B /* Controller */,
 				A6F566521B7E355A000EBCB3 /* Source */,
 				A6F566361B7E339B000EBCB3 /* Main.storyboard */,
 				A6F566391B7E339B000EBCB3 /* Images.xcassets */,
@@ -139,6 +169,10 @@
 				A6F566541B7E3598000EBCB3 /* Circle.m */,
 				A6E6982C1B822BEC003FE27B /* Test.h */,
 				A6E6982D1B822BEC003FE27B /* Test.m */,
+				A6E698361B837AC3003FE27B /* DemoViewController.h */,
+				A6E698371B837AC3003FE27B /* DemoViewController.m */,
+				A6E698391B837B92003FE27B /* UIViewController.h */,
+				A6E6983A1B837B92003FE27B /* UIViewController.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -245,9 +279,11 @@
 			files = (
 				A6F5662F1B7E339B000EBCB3 /* AppDelegate.m in Sources */,
 				A6F5662C1B7E339B000EBCB3 /* main.m in Sources */,
+				A6E6983B1B837B92003FE27B /* UIViewController.m in Sources */,
 				A6F566551B7E3598000EBCB3 /* Circle.m in Sources */,
 				A6E6982E1B822BEC003FE27B /* Test.m in Sources */,
 				A6F566351B7E339B000EBCB3 /* ViewController.m in Sources */,
+				A6E698381B837AC3003FE27B /* DemoViewController.m in Sources */,
 				A6F566321B7E339B000EBCB3 /* HelloXcode.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = HelloXcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = HelloXcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
