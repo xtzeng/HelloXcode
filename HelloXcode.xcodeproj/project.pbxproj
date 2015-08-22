@@ -10,6 +10,8 @@
 		A6E6982E1B822BEC003FE27B /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E6982D1B822BEC003FE27B /* Test.m */; };
 		A6E698321B822E39003FE27B /* TestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E698311B822E39003FE27B /* TestCase.m */; };
 		A6E698381B837AC3003FE27B /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E698371B837AC3003FE27B /* DemoViewController.m */; };
+		A6E9F6B71B883C51002C5957 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9F6B61B883C51002C5957 /* XYPoint.m */; };
+		A6E9F6B91B8840DD002C5957 /* CircleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9F6B81B8840DD002C5957 /* CircleTest.m */; };
 		A6F5662C1B7E339B000EBCB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5662B1B7E339B000EBCB3 /* main.m */; };
 		A6F5662F1B7E339B000EBCB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5662E1B7E339B000EBCB3 /* AppDelegate.m */; };
 		A6F566321B7E339B000EBCB3 /* HelloXcode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6F566301B7E339B000EBCB3 /* HelloXcode.xcdatamodeld */; };
@@ -37,6 +39,9 @@
 		A6E698311B822E39003FE27B /* TestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCase.m; sourceTree = "<group>"; };
 		A6E698361B837AC3003FE27B /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		A6E698371B837AC3003FE27B /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		A6E9F6B51B883C51002C5957 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		A6E9F6B61B883C51002C5957 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		A6E9F6B81B8840DD002C5957 /* CircleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTest.m; sourceTree = "<group>"; };
 		A6F566261B7E339B000EBCB3 /* HelloXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F5662A1B7E339B000EBCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6F5662B1B7E339B000EBCB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -143,6 +148,7 @@
 				A6F566481B7E339B000EBCB3 /* HelloXcodeTests.m */,
 				A6F566461B7E339B000EBCB3 /* Supporting Files */,
 				A6E698311B822E39003FE27B /* TestCase.m */,
+				A6E9F6B81B8840DD002C5957 /* CircleTest.m */,
 			);
 			path = HelloXcodeTests;
 			sourceTree = "<group>";
@@ -168,6 +174,8 @@
 				A6E6982D1B822BEC003FE27B /* Test.m */,
 				A6E698361B837AC3003FE27B /* DemoViewController.h */,
 				A6E698371B837AC3003FE27B /* DemoViewController.m */,
+				A6E9F6B51B883C51002C5957 /* XYPoint.h */,
+				A6E9F6B61B883C51002C5957 /* XYPoint.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -279,6 +287,7 @@
 				A6F566351B7E339B000EBCB3 /* ViewController.m in Sources */,
 				A6E698381B837AC3003FE27B /* DemoViewController.m in Sources */,
 				A6F566321B7E339B000EBCB3 /* HelloXcode.xcdatamodeld in Sources */,
+				A6E9F6B71B883C51002C5957 /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F566491B7E339B000EBCB3 /* HelloXcodeTests.m in Sources */,
+				A6E9F6B91B8840DD002C5957 /* CircleTest.m in Sources */,
 				A6E698321B822E39003FE27B /* TestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

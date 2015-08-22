@@ -9,5 +9,26 @@
 #import "Circle.h"
 
 @implementation Circle
+@synthesize radius;
+
+-(void) setOrigin:(XYPoint *)pt
+{
+    origin = pt;
+}
+
+-(XYPoint *) origin
+{
+    return origin;
+}
+
+-(int)area
+{
+    return radius*radius*3.13;
+}
+
+-(int)perimeter
+{
+    return radius*3.14*2;
+}
 
 @end
