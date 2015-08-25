@@ -13,7 +13,16 @@
 
 -(void) setOrigin:(XYPoint *)pt
 {
-    origin = pt;
+    //浅拷贝
+    //origin = pt;   //两个指针指向同一个对象
+    
+    //深拷贝
+    if(origin){
+        [origin release];
+    }
+    origin = [[XYPoint alloc] init]; //开辟新空间
+    [origin setX:pt.x andY:pt.y];
+    
 }
 
 -(XYPoint *) origin
